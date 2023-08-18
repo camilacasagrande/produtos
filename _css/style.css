@@ -1,0 +1,51 @@
+nav#menu ul{
+    text-transform: uppercase;
+    list-style: none;
+    position: absolute;
+    top: 40px;
+    left: 500px;
+}
+nav#menu{
+    display: block;
+}
+nav#menu li{
+    display: inline-block;
+    background-color: rgb(253, 207, 239);
+    padding: 5px;
+}
+nav#menu h1{
+    display: none;
+}
+body{
+    background-color: rgb(253, 207, 239);
+    font-family: sans-serif;
+}
+header{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    position: relative;
+}
+img{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+nav#menu a:link{
+    text-decoration: none;
+    color: rgb(253, 207, 239);
+}
+nav#menu a:visited{
+    color: rgb(233, 165, 212);
+}
+nav#menu a:hover{
+    color:rgb(253, 187, 233);
+    transition: all 0.8s ease;
+}
+h4 {
+    color: rgb(92, 53, 90);
+}
+h2 {
+    color: rgb(92, 53, 90);
+}
